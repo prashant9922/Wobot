@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #E5E5E5;
+    position: relative;
+    width: 1440px;
+    height: 901px;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(images/Background1.png);
+}
+header .logo{
+position: absolute;
+width: 160px;
+height: 36.02px;
+left: 60px;
+top: 60px;
+
+}
+.form{
+    background-color: white;
+    padding: 40px 91px;
+    position: absolute;
+    width: 560px;
+    height: 611px;
+    left: 440px;
+    top: 93px;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+border-radius: 15px;
+}
+
+.form-logo{
+    margin: auto;
+  
+    width: 51px;
+    height: 48px;
+    left: 163.5px;
+    top: 0px;
+}
+.form-logo .one{
+    position: relative;
+    top: -18px;
+    left: 33px;
+}
+.form-logo .two{
+    position: relative;
+    top: 3px;
+    right: 8px;
+}
+.form-logo .three{
+    position: relative;
+    top: -25px;
+}
+
+.heading{
+    text-align: center;
+    margin: 24px 0px;
+    padding: 10px;
+}
+.heading-para{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 10px;
+}
+.input-1{
+    padding: 5px;
+    font-size: 1em;
+}
+.input-1 p{
+    padding: 5px 0px;
+}
+.input-1 input{
+    padding: 15px;
+    border: 1px solid #CED4DA;
+    width: 368px;
+    height: 37px;
+    border-radius: 6px;
+}
+.input-2{
+    padding: 5px;
+    font-size: 1em;
+}
+.input-2 #select{
+    width: 368px;
+    height: 37px;
+    border: 1px solid #CED4DA;
+    border-radius: 6px;
+}
+.input-2 p{
+    padding: 5px 0px;
+}
+.input-2 #select{
+    padding: 0px 10px;
+    color: #A0A0A0;
+}
+
+.size p{
+    padding-top: 10px;
+    font-size: 1.1em;
+}
+.size ul{
+    list-style-type: none;
+    display: flex;
+}
+.size li{
+    padding:10px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+.size li a{
+    text-decoration: none;
+    color: #545454;
+    background-color: #F0F0F0;
+    padding: 4px 8px;
+}
+.size li .blue{
+    background-color: #3766E8;
+    color: white;
+}
+
+.call-to-action{
+    margin: 40px auto;
+    text-align: center;
+    padding-top: 8px;
+    width: 368px;
+    height: 36px;
+    background-color: #3766E8;
+    border-radius: 5px;
+}
+.call-to-action a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer{
+    position: absolute;
+width: 185px;
+height: 19px;
+left: 627px;
+top: 825px;
+}
+footer p{
+    color: #545454;
+    font-size: 0.9em;
+}
